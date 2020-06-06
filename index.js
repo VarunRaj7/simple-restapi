@@ -3,6 +3,7 @@ var app = express();
 const PORT = process.env.PORT || 8080
 
 app.get('/', function (req, res) {
+  console.log("Received request")
   res.send('Hello Varun!');
 });
 
