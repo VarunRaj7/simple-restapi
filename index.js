@@ -1,10 +1,11 @@
 var express = require('express');
 var app = express();
+const PORT = process.env.PORT || 8080
 
 app.get('/', function (req, res) {
   res.send('Hello Varun!');
 });
 
-app.listen(8080, function () {
-  console.log('simple rest api listening on port 8080!');
+app.listen(PORT, function () {
+  console.log(`simple rest api listening on port ${PORT}!`);
 });
