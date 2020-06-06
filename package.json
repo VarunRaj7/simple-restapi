@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/VarunRaj7/simple-restapi#readme",
   "devDependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.4"
+    "express": "^4.17.1"  
   }
 }
