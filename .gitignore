@@ -1,1 +1,4 @@
 node_modules
+.travis.yml
+deployment.yml
+service.yml
