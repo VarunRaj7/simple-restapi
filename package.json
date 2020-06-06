@@ -1,0 +1,24 @@
+{
+  "name": "simple-restapi",
+  "version": "1.0.0",
+  "description": "A simple restapi on port 8080",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VarunRaj7/simple-restapi.git"
+  },
+  "author": "Varun Raj Rayabarapu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VarunRaj7/simple-restapi/issues"
+  },
+  "homepage": "https://github.com/VarunRaj7/simple-restapi#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
