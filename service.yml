@@ -6,7 +6,8 @@ metadata:
     run: simple-restapi
 spec:
   ports:
-  - port: 8080
+  - port: 80
+    targetPort: 8080
     protocol: TCP
   selector:
-    run: simple-restapi
+    app: simple-restapi
